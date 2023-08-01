@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Date Dim].Date,
+	[Date Dim].Year,
+	[Date Dim].Month,
+	[Date Dim].Day 
+from [Date Dim]</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-63TCCAM\SQLEXPRESS
+Catalog=Star Schema
+Query=select [Date Dim].Date,
+	[D...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Date Dim].Date,&#xA;	[Date Dim].Year,&#xA;	[Date Dim].Month,&#xA;	[Date Dim].Day &#xA;from [Date Dim]" type="V_WString" />
+            <Field name="Year" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Date Dim].Date,&#xA;	[Date Dim].Year,&#xA;	[Date Dim].Month,&#xA;	[Date Dim].Day &#xA;from [Date Dim]" type="V_WString" />
+            <Field name="Month" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Date Dim].Date,&#xA;	[Date Dim].Year,&#xA;	[Date Dim].Month,&#xA;	[Date Dim].Day &#xA;from [Date Dim]" type="V_WString" />
+            <Field name="Day" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Date Dim].Date,&#xA;	[Date Dim].Year,&#xA;	[Date Dim].Month,&#xA;	[Date Dim].Day &#xA;from [Date Dim]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,
+	[Temp Dim].[Apparent Temperature],
+	[Temp Dim].Summary,
+	[Temp Dim].[Precip Type],
+	[Temp Dim].[Wind Bearing],
+	[Temp Dim].[Loud Cover],
+	[Temp Dim].Pressure,
+	[Temp Dim].[Daily Summary] 
+from [Temp Dim]</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-63TCCAM\SQLEXPRESS
+Catalog=Star Schema
+Query=select [Temp Dim].Temperatur...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Temperature" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="Double" />
+            <Field name="Apparent Temperature" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="Double" />
+            <Field name="Summary" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="V_WString" />
+            <Field name="Precip Type" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="V_WString" />
+            <Field name="Wind Bearing" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="Int32" />
+            <Field name="Loud Cover" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="Int16" />
+            <Field name="Pressure" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="Double" />
+            <Field name="Daily Summary" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||select [Temp Dim].Temperature,&#xA;	[Temp Dim].[Apparent Temperature],&#xA;	[Temp Dim].Summary,&#xA;	[Temp Dim].[Precip Type],&#xA;	[Temp Dim].[Wind Bearing],&#xA;	[Temp Dim].[Loud Cover],&#xA;	[Temp Dim].Pressure,&#xA;	[Temp Dim].[Daily Summary] &#xA;from [Temp Dim]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="210" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="270" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo."Part1"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-63TCCAM\SQLEXPRESS
+Catalog=destination1
+Query=dbo."Part1"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Int32" />
+            <Field name="Date" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+            <Field name="Summary" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+            <Field name="Precip Type" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+            <Field name="Temperature (C)" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Double" />
+            <Field name="Apparent Temperature (C)" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Double" />
+            <Field name="Humidity" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Double" />
+            <Field name="Wind Speed (km/h)" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Double" />
+            <Field name="Wind Bearing (degrees)" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Int32" />
+            <Field name="Visibility (km)" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Double" />
+            <Field name="Loud Cover" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Int16" />
+            <Field name="Pressure (millibars)" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="Double" />
+            <Field name="Daily Summary" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+            <Field name="Year" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+            <Field name="Month" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+            <Field name="Day" size="16777216" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=destination1;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;Part1&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Temperature" selected="True" />
+            <SelectField field="Humidity" selected="True" />
+            <SelectField field="Wind Speed (km/h)" selected="True" />
+            <SelectField field="Visibility (km)" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="342" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_Date" selected="True" rename="Input_#2_Date" />
+                <SelectField field="Input_#2_Summary" selected="True" rename="Input_#2_Summary" />
+                <SelectField field="Input_#2_Precip Type" selected="True" rename="Input_#2_Precip Type" />
+                <SelectField field="Input_#2_Loud Cover" selected="True" rename="Input_#2_Loud Cover" />
+                <SelectField field="Input_#2_Daily Summary" selected="True" rename="Input_#2_Daily Summary" />
+                <SelectField field="Input_#2_Year" selected="True" rename="Input_#2_Year" />
+                <SelectField field="Input_#2_Month" selected="True" rename="Input_#2_Month" />
+                <SelectField field="Input_#2_Day" selected="True" rename="Input_#2_Day" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Date" action="GroupBy" rename="Date" />
+            <SummarizeField field="Temperature" action="GroupBy" rename="Temperature" />
+            <SummarizeField field="Humidity" action="GroupBy" rename="Humidity" />
+            <SummarizeField field="Wind Speed (km/h)" action="GroupBy" rename="Wind Speed (km/h)" />
+            <SummarizeField field="Visibility (km)" action="GroupBy" rename="Visibility (km)" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="654" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Star Schema;Data Source=DESKTOP-63TCCAM\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-63TCCAM;Use Encryption for Data=False;Tag with column collation when possible=False|||Weather Fact</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Date" Dest="Date ID" />
+                <Field Source="Temperature" Dest="Temp ID" />
+                <Field Source="Humidity" Dest="Humidity" />
+                <Field Source="Wind Speed (km/h)" Dest="Wind Speed" />
+                <Field Source="Visibility (km)" Dest="Visibility" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-63TCCAM\SQLEXPRESS
+Catalog=Star Schema
+Query=Weather Fact</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fact</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="99b6c174-c026-4723-82e6-81a51ed79f55" />
+      <Telemetry>
+        <PreviousWorkflowId value="c9bf5b76-53e7-4a89-9b7f-92171002e81d" />
+        <OriginWorkflowId value="c9bf5b76-53e7-4a89-9b7f-92171002e81d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
